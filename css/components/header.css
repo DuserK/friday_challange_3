@@ -1,0 +1,38 @@
+.header-main {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-top: 35px;
+    position:relative;
+    color: #fff;
+}
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-main .logo {
+    width: 70px;
+    height: auto;
+}
+.header-main p {
+    font-weight: 500;
+    font-size: 40px;
+    margin-left: 18px;
+}
+.header-main > .header-nav {
+    width: 391px;
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-nav > a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    font-size: normal;
+}
