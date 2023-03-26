@@ -16,3 +16,7 @@ body {
 .bg-main {
     background-color: #74C69D;
 }
+
+.bg-white {
+    background-color: #fff;
+}

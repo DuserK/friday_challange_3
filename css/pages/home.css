@@ -5,6 +5,7 @@
 @import '../3rd-party/font-awesome.min.css';
 /* components */
 @import '../components/header.css';
+@import '../components/footer.css';
 
 /* CUSTOM STYLE */
 
@@ -17,54 +18,65 @@
     margin-top: 40px;
     width: 416px;
 }
-.hero .content > h3 {
-    text-transform: uppercase;;
-    font-size: 16px;
-    letter-spacing: 5px;
-
-}
-.hero .content > h1 {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-family: 'Crimson Text', serif;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 40px;
-}
-.hero .content > p {
-    font-weight: 400;
-    font-size: 15px;
+.hero .description {
     color: rgba(255, 255, 255, 0.75);
 }
 
-.content > .btn {
-    display: inline-block;
-    border-radius: 5px;
-    background-color: #fff;
-    color: #000;
-    text-align: center;
-    margin-top: 25px;
-    padding: 2.4em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    line-height: 20px;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: 400;
-
-}
-.hero > .img-idea {
-    width: 644.28px;
+.img-idea {
+    max-width: 644.28px;
     height: auto;
 }
-.button {
-    border: none;
-    color: white;
-    padding: 15px 32px;
+
+.ccontainer > .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.partners {
+    width: 411px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    align-items: center;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+}
+
+.partners > .caption {
+    color: #74c69d;
+}
+
+.partners > .title {
+    text-transform: capitalize;
+}
+
+.partners-group {
+    margin-top: 55px;
+    margin-bottom: 30px;
+    height: 50px;
+    align-items: center;
+}
+.partners-group > .microsoft {
+    height: 45px;
+}
+
+.partners-group > .facebook {
+    height: 38px;
+}
+
+.img-bgw {
+    width: 600px;
+}
+
+.ccontainer > .plain {
+    margin-top: 73px;
+    flex-direction: row;
+}
+
+@media (max-width: 600px){
+.plain > .content {
+    width: 470px;
+}
+}
+.plain  .description {
+    color: #21252980;
+}
