@@ -13,21 +13,19 @@
     flex-direction: row;
     align-items: center;
 }
-.header-main .logo {
-    width: 70px;
-    height: auto;
-}
+
 .header-main p {
     font-weight: 500;
     font-size: 40px;
     margin-left: 18px;
 }
-.header-main > .header-nav {
+.header-nav {
     width: 391px;
     height: 25px;
     display: flex;
     justify-content: space-between;
 }
+
 .header-nav > a {
     text-decoration: none;
     text-transform: capitalize;
@@ -36,3 +34,12 @@
     font-weight: 400;
     font-size: normal;
 }
+.header-main .icon {
+    display: none;
+}
+@media (max-width: 600px) {
+    .header-nav a:not(:last-child) {display: none;}
+    .header-nav a.icon {
+      display: block;
+    }
+  }
