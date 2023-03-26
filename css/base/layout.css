@@ -42,8 +42,7 @@
         flex-wrap: wrap-reverse;
         margin-bottom: 40px;
     }
-    .hero > .img-idea,
-    .plain > .img-bgw {
+    .hero > .img-idea {
         width:100%;
     }
     .hero  .title {
@@ -52,8 +51,7 @@
     .container >.partners {
         margin-top: 22px;
     }
-    .partners > .title,
-    .plain .title {
+    .partners > .title {
         font-size: 24px;
     }
     .container .partners-group {
@@ -61,10 +59,51 @@
         height: auto;
         gap: 40px;
     }
-    .ccontainer > .plain {
-        margin-top: 60px;
-        flex-wrap: wrap;
+
+}
+
+@media (max-width: 600px) {
+    .container .header-main {
+        margin-top: 17px;
     }
+    .container, .partners {
+        max-width: 335px;
+    }
+    .container > .meader-main {
+        margin-top: 17px;
+        height: 38px;
+    }
+    .header-main .header-nav {
+        width: auto;
+    }
+    .header-logo > .logo {
+        width: 45px;
+    }
+    .header-main .header-logo > p {
+        font-size: 30px;
+    }
+    .container >.hero {
+        flex-wrap: wrap-reverse;
+        margin-bottom: 40px;
+    }
+    .hero > .img-idea {
+        width:100%;
+    }
+    .hero  .title {
+        font-size: 28px;
+    }
+    .container >.partners {
+        margin-top: 22px;
+    }
+    .partners > .title {
+        font-size: 24px;
+    }
+    .container .partners-group {
+        flex-direction: column;
+        height: auto;
+        gap: 40px;
+    }
+
 }
 
 .caption {

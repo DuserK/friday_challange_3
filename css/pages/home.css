@@ -62,21 +62,3 @@
 .partners-group > .facebook {
     height: 38px;
 }
-
-.img-bgw {
-    width: 600px;
-}
-
-.ccontainer > .plain {
-    margin-top: 73px;
-    flex-direction: row;
-}
-
-@media (max-width: 600px){
-.plain > .content {
-    width: 470px;
-}
-}
-.plain  .description {
-    color: #21252980;
-}
