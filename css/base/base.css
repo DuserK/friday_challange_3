@@ -9,16 +9,8 @@ body * {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    /* display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 100%; */
 }
 
 .bg-color {
     background-color: #74C69D;
 }
-
-/* .bg-white {
-    background-color: #fff;
-} */
