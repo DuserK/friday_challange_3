@@ -4,19 +4,21 @@ body * {
     padding: 0;
     vertical-align: top;
     box-sizing: border-box;
+    justify-content: center;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    display: flex;
+    /* display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%; */
 }
 
-.bg-main {
+.bg-color {
     background-color: #74C69D;
 }
 
-.bg-white {
+/* .bg-white {
     background-color: #fff;
-}
+} */
