@@ -1,10 +1,10 @@
 
-.ccontainer {
+/* .ccontainer {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 .container {
     width: 100%;
@@ -13,31 +13,14 @@
     max-width: 1175px;
 }
 
-.header-main .logo {
-    width: 70px;
-    height: auto;
+@media (max-width: 1215px) {
+    .container {
+        margin: 0 20px;
+    }    
 }
 
 @media (max-width: 600px) {
-    .container .header-main {
-        margin-top: 17px;
-    }
-    .container, .partners {
-        max-width: 335px;
-    }
-    .container > .meader-main {
-        margin-top: 17px;
-        height: 38px;
-    }
-    .header-main .header-nav {
-        width: auto;
-    }
-    .header-logo > .logo {
-        width: 45px;
-    }
-    .header-main .header-logo > p {
-        font-size: 30px;
-    }
+
     .container >.hero {
         flex-wrap: wrap-reverse;
         margin-bottom: 40px;
@@ -62,26 +45,7 @@
 
 }
 
-@media (max-width: 600px) {
-    .container .header-main {
-        margin-top: 17px;
-    }
-    .container, .partners {
-        max-width: 335px;
-    }
-    .container > .meader-main {
-        margin-top: 17px;
-        height: 38px;
-    }
-    .header-main .header-nav {
-        width: auto;
-    }
-    .header-logo > .logo {
-        width: 45px;
-    }
-    .header-main .header-logo > p {
-        font-size: 30px;
-    }
+@media (max-width: 450px) {
     .container >.hero {
         flex-wrap: wrap-reverse;
         margin-bottom: 40px;
