@@ -1,7 +1,6 @@
 .container {
-    width: 100%;
-    display: flex;
     max-width: 1180px;
+    margin: 0 auto;
 }
 
 @media (max-width: 1220px) {
@@ -9,21 +8,7 @@
         margin: 0 20px;
     }    
 }
-
-@media (max-width: 600px) {
-    .container >.partners {
-        margin-top: 22px;
-    }
-    .partners > .title {
-        font-size: 24px;
-    }
-    .container .partners-group {
-        flex-direction: column;
-        height: auto;
-        gap: 40px;
-    }
-}
-
+/* 
 @media (max-width: 450px) {
     .container >.partners {
         margin-top: 22px;
@@ -36,7 +21,7 @@
         height: auto;
         gap: 40px;
     }
-}
+} */
 
 .caption {
     text-transform: uppercase;;

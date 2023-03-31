@@ -15,16 +15,20 @@
     color: #fff;
     min-height: 470px;
 }
+
 .hero > .hero-main {
+    display: flex;
     width: 100%;
     justify-content: space-between;
     margin-top: 20px;
     margin-bottom: 83px;
 }
+
 .hero .content{
     margin-top: 40px;
     width: 416px;
 }
+
 .hero .description {
     color: rgba(255, 255, 255, 0.75);
 }
@@ -34,18 +38,12 @@
     height: auto;
 }
 
-.ccontainer > .container {
-    flex-direction: column;
-    align-items: center;
-}
-
 .partners {
-    width: 411px;
-    display: flex;
-    flex-direction: column;
+    margin: 0 auto;
     margin-top: 60px;
     align-items: center;
     text-align: center;
+    max-width: 416px;
 }
 
 .partners > .caption {
@@ -57,24 +55,24 @@
 }
 
 .partners-group {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 80px;
+    gap: 40px 70px;
     margin-top: 55px;
-    margin-bottom: 30px;
-    height: 50px;
     align-items: center;
 }
-.partners-group > .microsoft {
-    height: 45px;
-}
 
-.partners-group > .facebook {
-    height: 38px;
+.partners-main > .btn {
+    margin: 55px auto 0 auto;
 }
 
 @media (max-width: 1000px) {
-    .hero .content{
+    .hero .content {
         width: 45%
     }
 }
+
 @media (max-width: 800px) {
     .hero > .hero-main {
         flex-wrap: wrap-reverse;
@@ -86,7 +84,13 @@
     .hero-main > .content {
         width: 100%;
     }
-    .hero  .title {
+    .hero .title {
         font-size: 28px;
+    }
+    .container >.partners {
+        margin-top: 22px;
+    }
+    .partners > .title {
+        font-size: 24px;
     }
 }
