@@ -10,6 +10,7 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 35px;
+    margin-bottom: 20px;
     position:relative;
     color: #fff;
 }
@@ -64,11 +65,9 @@
 @media (max-width: 600px) {
     .header > .header-main {
         margin-top: 17px;
+        margin-bottom: 17px;
         height: 38px;
     }
-    /* .header-main .header-nav {
-        width: auto;
-    } */
     .header-logo > .logo {
         width: 45px;
     }
