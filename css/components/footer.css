@@ -1,0 +1,35 @@
+.footer {
+    height: 125px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.footer .socials {
+    display: flex;
+    gap: 20px;
+}
+.footer .socials > .social {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.credits p {
+    font-size: 20px;
+}
+@media (max-width: 800px) {
+    .footer-content {
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+}
